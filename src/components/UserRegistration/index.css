@@ -1,0 +1,372 @@
+.registration-form{
+    background-image: url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1694957609/boat_jbsmen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 410px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.236);
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: -250px;
+}
+
+.heading-forms{
+    color: #000000ad;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-right: -250px;
+}
+.heading-form{
+    color: #1a1919a4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+}
+.er{
+    color: rgba(255, 0, 0, 0.884);
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.name-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 7px;
+    align-self: center;
+    width: 200px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.mail-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 7px;
+    align-self: center;
+    width: 200px;
+}
+.phone-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 7px;
+    align-self: center;
+    width: 200px;
+}
+.dif-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 7px;
+    align-self: center;
+    width: 200px;
+}
+
+.read-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 7px;
+    align-self: center;
+    width: 200px;
+}
+
+.name-label{
+    color: rgba(58, 62, 62, 0.884);
+    font-size: 16px;
+    font-family: Arial,'Times New Roman', "Roboto",Georgia, Times, serif;
+    margin-bottom: 4px;
+    font-weight: 600;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.mail-label{
+    color: rgba(58, 62, 62, 0.884);
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.phone-label{
+    color: rgba(58, 62, 62, 0.884);
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dif-label{
+    color: rgba(58, 62, 62, 0.884);
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.read-label{
+    color: rgba(58, 62, 62, 0.884);
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 3px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.read-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0px;
+}
+#name{
+    width: 180px;
+    height: 23px;
+    border: solid 3px rgba(122, 131, 130, 0.764);
+    border-radius: 4px;
+    margin-top: 0;
+    padding-top: 0;
+    background-image: linear-gradient(to right, rgba(165, 210, 214, 0.47),rgba(228, 223, 155, 0.237));
+}
+#read{
+    width: 17px;
+    height: 17px;
+    border: solid 3px rgba(122, 131, 130, 0.764);
+    border-radius: 4px;
+    padding-bottom: 0px;
+    margin-bottom: 3px;
+    background-image: linear-gradient(to right, rgba(165, 210, 214, 0.47),rgba(228, 223, 155, 0.237));
+}
+#mail{
+    width: 180px;
+    height: 23px;
+    border: solid 3px rgba(122, 131, 130, 0.764);
+    border-radius: 4px;
+    background-image: linear-gradient(to right, rgba(165, 210, 214, 0.47),rgba(228, 223, 155, 0.237));
+}
+
+#phone{
+    width: 180px;
+    height: 23px;
+    border: solid 3px rgba(122, 131, 130, 0.764);
+    border-radius: 4px;
+    background-image: linear-gradient(to right, rgba(165, 210, 214, 0.47),rgba(228, 223, 155, 0.237));
+}
+
+#level{
+    width: 190px;
+    height: 28px;
+    border: solid 3px rgba(122, 131, 130, 0.764);
+    border-radius: 4px;
+    background-image: linear-gradient(to right, rgba(165, 210, 214, 0.47),rgba(228, 223, 155, 0.237));
+}
+
+.btn-start{
+    align-self: center;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    background-image: linear-gradient(to right, rgba(227, 33, 92, 0.723), rgba(24, 199, 141, 0.773));
+    border: solid 0;
+    border-radius: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgba(188, 209, 227, 0.749);
+    font-weight: 600;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3),2px 2px 2px 4px rgba(19, 43, 147, 0.341);
+}
+.btn-start:hover{
+    background-image: linear-gradient(to right, rgba(227, 33, 92, 0.723),rgba(187, 215, 30, 0.779), rgba(24, 199, 141, 0.773));
+    color: rgba(0, 0, 0, 0.833);
+}
+
+.re{
+    color: rgba(255, 0, 0, 0.456);
+}
+.require{
+    color: rgba(58, 62, 62, 0.884);
+    font-size: 14px;
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2 0 0 0;
+    padding: 0;
+}
+
+.instra{
+    position: absolute;
+    top: 30px;
+    left: auto;
+    right: auto;
+    z-index: 2;
+}
+
+@media (max-width:572px){
+    .registration-form{
+        background-image: url("https://res.cloudinary.com/gopi-enterprises/image/upload/v1694957609/boat_jbsmen.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        max-width: 100vw;
+        max-height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 30px;
+        position: relative;
+    }
+    
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 80vw;
+        height: 70vh;
+        background-color: rgba(255, 255, 255, 0.236);
+        padding: 5px;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .heading-forms{
+        color: #000000ad;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heading-form{
+        color: #1a1919a4;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .er{
+        color: rgba(255, 0, 0, 0.884);
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .name-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 7px;
+        align-self: center;
+        width: 250px;
+    }
+    .mail-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 7px;
+        align-self: center;
+        width: 250px;
+    }
+    .phone-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 7px;
+        align-self: center;
+        width: 250px;
+    }
+    .dif-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 7px;
+        align-self: center;
+        width: 250px;
+    }
+    
+    
+    #name{
+        width: 200px;
+        height: 23px;
+        border: solid 3px rgba(122, 131, 130, 0.764);
+        border-radius: 4px;
+        background-image: linear-gradient(to right, rgba(165, 210, 214, 0.47),rgba(228, 223, 155, 0.237));
+    }
+    
+    #mail{
+        width: 200px;
+        height: 23px;
+        border: solid 3px rgba(122, 131, 130, 0.764);
+        border-radius: 4px;
+        background-image: linear-gradient(to right, rgba(165, 210, 214, 0.47),rgba(228, 223, 155, 0.237));
+    }
+    
+    #phone{
+        width: 200px;
+        height: 23px;
+        border: solid 3px rgba(122, 131, 130, 0.764);
+        border-radius: 4px;
+        background-image: linear-gradient(to right, rgba(165, 210, 214, 0.47),rgba(228, 223, 155, 0.237));
+    }
+    
+    #level{
+        width: 210px;
+        height: 28px;
+        border: solid 3px rgba(122, 131, 130, 0.764);
+        border-radius: 4px;
+        background-image: linear-gradient(to right, rgba(165, 210, 214, 0.47),rgba(228, 223, 155, 0.237));
+    }
+    
+    .btn-start{
+        align-self: center;
+        margin-top: 10px;
+        cursor: pointer;
+        width: 150px;
+        height: 30px;
+        background-image: linear-gradient(to right, rgba(227, 33, 92, 0.723), rgba(24, 199, 141, 0.773));
+        border: solid 0;
+        margin-left: -30px;
+        border-radius: 6px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        color: rgba(188, 209, 227, 0.749);
+        font-weight: 600;
+        box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3),2px 2px 2px 4px rgba(19, 43, 147, 0.341);
+    }
+    
+}
